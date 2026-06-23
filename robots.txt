@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://opta-s.github.io/ocean-indien/sitemap.xml
+Sitemap: https://opta-s.github.io/OPTA-S-OI/sitemap.xml
