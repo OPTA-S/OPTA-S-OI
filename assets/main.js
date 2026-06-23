@@ -127,7 +127,6 @@
     contact.addEventListener('submit', function (e) {
       e.preventDefault();
       if (!contact.checkValidity()) { contact.reportValidity(); return; }
-      if (val(contact, 'botcheck')) return; // robot
       var nom = val(contact, 'nom'), org = val(contact, 'organisme'),
           mail = val(contact, 'email'), tel = val(contact, 'tel'), message = val(contact, 'message');
       var corps = 'Nom : ' + nom + '\nOrganisme : ' + org + '\nE-mail : ' + mail +
@@ -144,7 +143,6 @@
     nl.addEventListener('submit', function (e) {
       e.preventDefault();
       if (!nl.checkValidity()) { nl.reportValidity(); return; }
-      if (val(nl, 'botcheck')) return;
       var mail = val(nl, 'email');
       envoyer(nl, { email: mail, type: 'Inscription newsletter' },
         'Inscription à la newsletter',
