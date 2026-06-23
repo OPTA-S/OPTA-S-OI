@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1130 250" width="1130" height="250" role="img" aria-label="Cofinancé par l'Union européenne">
+  <g transform="translate(0,5) scale(0.44444)">
+    <rect fill="#003399" width="810" height="540"/>
+    <g fill="#FFCC00">
+      <path id="star-cf" d="M405,135 411.18,154.02 431.18,154.02 415,165.78 421.18,184.8 405,173.04 388.82,184.8 395,165.78 378.82,154.02 398.82,154.02z"/>
+      <use href="#star-cf" transform="rotate(30 405 270)"/>
+      <use href="#star-cf" transform="rotate(60 405 270)"/>
+      <use href="#star-cf" transform="rotate(90 405 270)"/>
+      <use href="#star-cf" transform="rotate(120 405 270)"/>
+      <use href="#star-cf" transform="rotate(150 405 270)"/>
+      <use href="#star-cf" transform="rotate(180 405 270)"/>
+      <use href="#star-cf" transform="rotate(210 405 270)"/>
+      <use href="#star-cf" transform="rotate(240 405 270)"/>
+      <use href="#star-cf" transform="rotate(270 405 270)"/>
+      <use href="#star-cf" transform="rotate(300 405 270)"/>
+      <use href="#star-cf" transform="rotate(330 405 270)"/>
+    </g>
+  </g>
+  <g fill="#003399" font-family="Poppins, Arial, Helvetica, sans-serif" font-weight="700" font-size="62">
+    <text x="395" y="112">Cofinancé par</text>
+    <text x="395" y="188">l'Union européenne</text>
+  </g>
+</svg>
